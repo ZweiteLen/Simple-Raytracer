@@ -1,0 +1,3 @@
+C:/Users/Zweite/Documents/GitHub/Simple-Raytracer/src/build/CMakeFiles/Raytracer.dir
+C:/Users/Zweite/Documents/GitHub/Simple-Raytracer/src/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Zweite/Documents/GitHub/Simple-Raytracer/src/build/CMakeFiles/ZERO_CHECK.dir

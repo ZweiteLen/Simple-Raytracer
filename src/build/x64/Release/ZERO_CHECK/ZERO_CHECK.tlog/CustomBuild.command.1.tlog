@@ -1,0 +1,10 @@
+^C:\USERS\ZWEITE\DOCUMENTS\GITHUB\SIMPLE-RAYTRACER\SRC\BUILD\CMAKEFILES\3116C066401D4691F727533D055BB876\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Zweite/Documents/GitHub/Simple-Raytracer/src -BC:/Users/Zweite/Documents/GitHub/Simple-Raytracer/src/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Zweite/Documents/GitHub/Simple-Raytracer/src/build/RayTracer.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
